@@ -8,16 +8,27 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /*Shorthand - background
+              color > image > position > repeat > {size} > attachment
+
+              size: not working on web browser wet 
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed ;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,7 +39,7 @@
 <body>
     <main>
         <h1>Background image test</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum labore repellendus illo, doloribus voluptatem veniam rerum necessitatibus. Incidunt, itaque quisquam, facere asperiores modi corrupti neque explicabo labore dolore tenetur excepturi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium corrupti quasi, magni voluptatem delectus magnam itaque iste sit quaerat veritatis dicta tempore! Aperiam qui error sapiente eligendi officia incidunt repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos autem delectus doloremque quod, voluptatum alias explicabo perferendis a nulla dolores totam ad accusamus repudiandae, vel, voluptatem magni. Nesciunt, laudantium corporis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum labore repellendus illo, doloribus voluptatem veniam rerum necessitatibus. Incidunt, itaque quisquam, facere asperiores modi corrupti neque explicabo labore dolore tenetur excepturi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium corrupti quasi, magni voluptatem delectus magnam itaque iste sit quaerat veritatis dicta tempore! Aperiam qui error sapiente eligendi officia incidunt repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos autem delectus doloremque quod, voluptatum alias explicabo perferendis a nulla dolores totam ad accusamus repudiandae, vel, voluptatem magni. Nesciunt, laudantium corporis.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta inventore expedita aliquam delectus excepturi, labore fugiat dicta ipsum maxime corporis similique alias quas assumenda possimus perferendis quidem, iure laborum beatae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum mollitia repellat ipsa veritatis. Saepe earum voluptatum repellendus laboriosam magnam cumque, sequi modi unde inventore corporis qui culpa veniam asperiores fugit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sapiente error inventore consectetur corrupti, et iste, magni ex excepturi cupiditate voluptate eveniet maiores cumque facere. Esse excepturi assumenda maxime eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem beatae animi nostrum. Voluptates sint laboriosam quam dicta officiis incidunt voluptatem. Quae, vitae? Iste quo sequi adipisci deserunt fugit, ipsam minus.  adipisicing elit. Illum labore repellendus illo, doloribus voluptatem veniam rerum necessitatibus. Incidunt, itaque quisquam, facere asperiores modi corrupti neque explicabo labore dolore tenetur excepturi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium corrupti quasi, magni voluptatem delectus magnam itaque iste sit quaerat veritatis dicta tempore! Aperiam qui error sapiente eligendi officia incidunt repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos autem delectus doloremque quod, voluptatum alias explicabo perferendis a nulla dolores totam ad accusamus repudiandae, vel, voluptatem magni. Nesciunt, laudantium corporis.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta inventore expedita aliquam delectus excepturi, labore fugiat dicta ipsum maxime corporis similique alias quas assumenda possimus perferendis quidem, iure laborum beatae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum mollitia repellat ipsa veritatis. Saepe earum voluptatum repellendus laboriosam magnam cumque, sequi modi unde inventore corporis qui culpa veniam asperiores fugit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sapiente error inventore consectetur corrupti, et iste, magni ex excepturi cupiditate voluptate eveniet maiores cumque facere. Esse excepturi assumenda maxime eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem beatae animi nostrum. Voluptates sint laboriosam quam dicta officiis incidunt voluptatem. Quae, vitae? Iste quo sequi adipisci deserunt fugit, ipsam minus. </p>
     </main>
 </body>
 </html>
