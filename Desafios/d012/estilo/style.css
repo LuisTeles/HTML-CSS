@@ -47,7 +47,7 @@ section.normal{
     color: black;
 }
 
-section.imagem{
+section.imagem{ /*class*/
     background-color: rgb(41, 41, 41);
     color: white;
 }
